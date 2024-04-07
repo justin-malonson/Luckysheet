@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 
-<head lang='zh'>
+<head lang='en'>
 	<meta charset='utf-8'>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="renderer" content="webkit" />
 	<meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=0" />
-	<title>Luckysheet</title>
+	<title>Report Builder</title>
 
 	<link rel='stylesheet' href='./plugins/css/pluginsCss.css' />
 	<link rel='stylesheet' href='./plugins/plugins.css' />
@@ -58,7 +58,7 @@
 		$(function () {
 
 			// According to the browser language
-			var lang = luckysheetDemoUtil.language() === 'zh' ? 'zh' : 'en';
+			var lang = luckysheetDemoUtil.language() === 'en';
 			var isShare = luckysheetDemoUtil.getRequest().share; // '?share=1' opens the collaborative editing mode
 			var gridKey = luckysheetDemoUtil.getRequest().gridKey; // workbook id for collaborative editing, or directly define here
 			var options = null;
